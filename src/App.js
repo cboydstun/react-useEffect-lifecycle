@@ -2,12 +2,16 @@ import React from 'react'
 
 import DemoEffects from './components/DemoEffects'
 import EffectsNoDependency from './components/EffectsNoDependency'
+import EffectsTwoStates from './components/EffectsTwoStates'
+
+import './styles.css'
 
 export default function App() {
     return (
-        <div>
+        <body>
             {/* <DemoEffects /> */}
-            <EffectsNoDependency />
-        </div>
+            {/* <EffectsNoDependency /> */}
+            <EffectsTwoStates />
+        </body>
     )
 }
